@@ -1,0 +1,76 @@
+ Project 1 Shopping Cart 
+
+1 Overview of the Project  
+  This project implements an Enhanced E-commerce Shopping Cart using Object-Oriented Programming (OOP) principles. It includes different types of products (digital and physical) , a user shopping cart system , and discount functionalities. The project demonstrates concepts like inheritance, encapsulation , abstraction, and polymorphism while ensuring a clean and maintainable code structure.  
+
+
+2. Structure of the Code 
+2.1Class Diagram / Block Diagram 
+Product is a base class for DigitalProduct and PhysicalProduct. 
+Cart contains multiple products and applies discounts 
+User has a cart and interacts with it using simple methods  
+2.2 Brief Summary of Developed Classes 
+Product Class : Stores basic product details and methods . 
+DigitalProduct & PhysicalProduct : Extend Product to include specific attributes . 
+Cart Class : Manages shopping cart operations. 
+User Class : Handles cart actions and checkout .
+Discount Class & Subclasses : Abstract base class for discount types. 
+3. Instructions  
+3.1 How to Use the code  
+Git clone <Shopping-cart-/README.md at 577a95e892f4ba62ebf9b8af777b7d49e55a3b91 · Kim-code84/Shopping-cart->
+Cd project_folder 
+ 3 Run the script: 
+Python shopping_cart.py 
+
+
+
+4. Code Verification & Testing 
+
+
+Test Scenario
+Expected Output
+Actual Output
+Pass/Fail
+Add digital product to cart
+Product appears in cart
+✅ Product added
+✅ Pass
+Apply 10% discount
+Correct discount applied
+✅ Discounted total correct
+✅ Pass
+Checkout process
+Cart clears after purchase
+✅ Cart is empty
+✅ Pass 
+
+
+
+
+
+5.Discussion & Conclusion 
+5.1 Findings 
+OOP concepts like inheritance and polymorphism made the system modular. 
+Using encapsulation improved security by restricting access to cart_items 
+5.2 Challenges faced 
+Handling edge cases (e.g., applying multiple discounts) 
+Debugging issues with discount calculations. 
+5.3 Areas for improvement 
+Adding database storage for persistent carts. 
+Implementing user authentication for a real world scenario. 
+6.Submission & GitHub Setup 
+
+Make sure the repository 
+Is public 
+Has a README.md with project details 
+Includes all files, including the report 
+
+
+Discussion and Conclusion:
+
+Difficulty: Managing relationships between classes for easy extension.
+
+Solution: Applying OOP, using inheritance, polymorphism and abstraction.
+Limitations: No graphical interface, only running on console.
+Development direction: Adding database system and user interface.
+
